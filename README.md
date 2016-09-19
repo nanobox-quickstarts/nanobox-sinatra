@@ -5,14 +5,14 @@ After cloning the repo, **cd into the directory** and run the following commands
 
 ``` bash
 
+# build the code
+/nanobox-sinatra $ nanobox build
+
 # start the nanobox VM
 /nanobox-sinatra $ nanobox dev start
 
 # add a convenient way to access your app from the browser
 /nanobox-sinatra $ nanobox dev dns add myapp.nanobox.dev
-
-# build the code
-/nanobox-sinatra $ nanobox build
 
 # run the app
 /nanobox-sinatra $ nanobox dev console
