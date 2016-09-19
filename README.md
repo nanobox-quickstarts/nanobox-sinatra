@@ -1,7 +1,7 @@
 # Sinatra on Nanobox
 This is the companion application for the [Sinatra: Getting Started](https://guides.nanobox.io/sinatra/) guide on [guides.nanobox.io](https://guides.nanobox.io) and is pre-configured and ready to run on [nanobox](https://desktop.nanobox.io/)!
 
-## Up and running
+## Up and Running
 
 ``` bash
 
