@@ -6,17 +6,19 @@ After cloning the repo, **cd into the directory** and run the following commands
 ``` bash
 
 # build the code
-/nanobox-sinatra $ nanobox build
+nanobox build
 
 # start the dev environment
-/nanobox-sinatra $ nanobox dev start
+nanobox dev start
 
 # add a convenient way to access your app from the browser
-/nanobox-sinatra $ nanobox dev dns add sinatra.nanobox.dev
+nanobox dev dns add sinatra.nanobox.dev
+
+# console into the dev environment
+nanobox dev console
 
 # run the app
-/nanobox-sinatra $ nanobox dev console
-/app $ bundle exec ruby myapp.rb
+bundle exec ruby myapp.rb
 ```
 
 Visit the app from your favorite browser at: `sinatra.nanobox.dev:8080`
