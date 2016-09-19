@@ -12,14 +12,14 @@ After cloning the repo, **cd into the directory** and run the following commands
 /nanobox-sinatra $ nanobox dev start
 
 # add a convenient way to access your app from the browser
-/nanobox-sinatra $ nanobox dev dns add myapp.nanobox.dev
+/nanobox-sinatra $ nanobox dev dns add sinatra.nanobox.dev
 
 # run the app
 /nanobox-sinatra $ nanobox dev console
 /app $ bundle exec ruby myapp.rb
 ```
 
-Visit the app from your favorite browser at: `myapp.nanobox.dev:8080`
+Visit the app from your favorite browser at: `sinatra.nanobox.dev:8080`
 
 ### Now What?
 For more details about how this works or for more advanced topics related to running Sinatra applications on nanobox visit [guides.nanobox.io/sinatra/](https://guides.nanobox.io/sinatra/)
