@@ -22,4 +22,4 @@ After cloning the repo, **cd into the directory** and run the following commands
 Visit the app from your favorite browser at: `myapp.nanobox.dev:8080`
 
 ### Now What?
-For more details about how this works or for more advanced topics related to running Sinatra applications on nanobox visit [guides.nanobox.io/sinatra](https://guides.nanobox.io/sinatra)
+For more details about how this works or for more advanced topics related to running Sinatra applications on nanobox visit [guides.nanobox.io/sinatra/](https://guides.nanobox.io/sinatra/)
