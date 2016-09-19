@@ -8,7 +8,7 @@ After cloning the repo, **cd into the directory** and run the following commands
 # build the code
 /nanobox-sinatra $ nanobox build
 
-# start the dev environment inside the nanobox VM
+# start the dev environment
 /nanobox-sinatra $ nanobox dev start
 
 # add a convenient way to access your app from the browser
