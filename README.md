@@ -1,9 +1,13 @@
 ### Quickstart for Sinatra on Nanobox
 This is the companion application for the [Sinatra: Getting Started](https://guides.nanobox.io/sinatra/) guide on [guides.nanobox.io](https://guides.nanobox.io) and is pre-configured and ready to run on [nanobox](https://desktop.nanobox.io/)!
 
-After cloning the repo, **cd into the directory** and run the following commands:
-
 ``` bash
+
+# clone the code
+git clone https://github.com/nanobox-quickstarts/nanobox-sinatra.git
+
+# cd into the sinatra app
+cd nanobox-sinatra
 
 # build the code
 nanobox build
