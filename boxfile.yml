@@ -1,2 +1,8 @@
 code.build:
+  # the ruby engine provides the ruby runtime and runs bundle install during the
+  # compile phase
   engine: "ruby"
+
+# run the application in a web component
+web.sinatra:
+  start: 'bundle exec ruby myapp.rb'
