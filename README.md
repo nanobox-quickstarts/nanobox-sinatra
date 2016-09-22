@@ -1,4 +1,4 @@
-# Sinatra on Nanobox
+# Sinatra with Nanobox
 This is the companion application for the [Sinatra: Getting Started](https://guides.nanobox.io/sinatra/) guide on [guides.nanobox.io](https://guides.nanobox.io) and is pre-configured and ready to run with [nanobox](https://desktop.nanobox.io/)!
 
 ## Up and Running
