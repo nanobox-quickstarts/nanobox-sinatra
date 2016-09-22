@@ -14,8 +14,8 @@ cd nanobox-sinatra
 # build the code
 nanobox build
 
-# start the dev environment
-nanobox dev start
+# deploy build to dev environment
+nanobox dev depoly
 
 # add a convenient way to access your app from the browser
 nanobox dev dns add sinatra.nanobox.dev
