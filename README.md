@@ -11,11 +11,8 @@ git clone https://github.com/nanobox-quickstarts/nanobox-sinatra.git
 # cd into the sinatra app
 cd nanobox-sinatra
 
-# build runtime and compile application
-nanobox build
-
-# deploy runtime to dev enviroment
-nanobox dev depoly
+# start the dev environment
+nanobox dev start
 
 # add a convenient way to access your app from the browser
 nanobox dev dns add sinatra.nanobox.dev
