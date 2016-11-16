@@ -1,8 +1,16 @@
-code.build:
-  # the ruby engine provides the ruby runtime and runs bundle install during the
-  # compile phase
-  engine: "ruby"
+run.config:
+  engine: ruby
 
-# run the application in a web component
-web.sinatra:
-  start: 'bundle exec ruby myapp.rb'
+  # add nginx package
+  extra_packages:
+    - nginx
+
+# add a postgres database
+data.db:
+  image: nanobox/postgresql
+
+# add a web component and give it a "start" command
+web.main:
+  start:
+    nginx: nginx -c /app/config/nginx.conf
+    puma: bundle exec puma -C /app/config/puma.rb
