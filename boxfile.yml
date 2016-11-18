@@ -1,11 +1,11 @@
 run.config:
   engine: ruby
 
-  # add nginx package
+  # add extra packages
   extra_packages:
     - nginx
 
-# add a postgres database
+# add a database
 data.db:
   image: nanobox/postgresql
 
@@ -14,3 +14,7 @@ web.main:
   start:
     nginx: nginx -c /app/config/nginx.conf
     puma: bundle exec puma -C /app/config/puma.rb
+
+# add a worker component and give it a "start" command
+# worker.main:
+#   start: ruby worker.rb
