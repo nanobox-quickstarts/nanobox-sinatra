@@ -20,16 +20,14 @@ cd nanobox-sinatra
 ## Run the app
 
 ```bash
+# Add a convenient way to access your app from the browser
+nanobox dns add local sinatra.dev
+
 # Run sinatra as you would normally, with Nanobox
 nanobox run rackup --host 0.0.0.0
 ```
 
 ## Check it out
-
-```bash
-# Add a convenient way to access your app from the browser
-nanobox dns add local sinatra.dev
-```
 
 Visit your app at <a href="http://sinatra.dev:9292" target="\_blank">sinatra.dev:9292</a>
 
